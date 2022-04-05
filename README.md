@@ -71,11 +71,56 @@ The [full list](https://gas.graviti.com/open-datasets) is available on Graviti C
 
 ## Classfication
 
+- [**Spoken Digits | FSDD**](https://gas.graviti.com/dataset/graviti/FSDD)
+- [**Car Logo Classification**](https://gas.graviti.com/dataset/hellodataset/Car-Logos-Dataset)
+- [**Pokemon Breed Identification**](https://gas.graviti.com/dataset/graviti/PokemonGenerationOne)
+- [**Handwritten Digits Classification | MNIST**](https://gas.graviti.com/dataset/hellodataset/MNIST)
+- [**Object Classification| CIFAR10**](https://gas.graviti.com/dataset/graviti/CIFAR10)
+- [**Logo Classification | logos-627**](https://gas.graviti.com/dataset/hellodataset/logos-627)
+- [**Classifcation: Dogs vs Cats**](https://gas.graviti.com/dataset/graviti/DogsVsCats)
+- [**Fashion Project Classification**](https://gas.graviti.com/dataset/graviti/FashionMNIST)
+- [**Kenyan Food Type**](https://gas.graviti.com/dataset/graviti/KenyanFoodType)
+- [**Texture Classification**](https://gas.graviti.com/dataset/graviti/KylbergTexture)
+- [**Car Brand Classification**](https://gas.graviti.com/dataset/graviti/CarConnectionPicture)
+- [**Quick Draw Content Classification**](https://gas.graviti.com/dataset/graviti/QuickDraw)
+- [**Affective Image Classification**](https://gas.graviti.com/dataset/graviti/ImageEmotionArtPhoto)
+- [**Animal Species Detection | AnimalsWithAttributes2**](https://gas.graviti.com/dataset/graviti/AnimalsWithAttributes2)
+- [**37 Category Cat & Dog Dataset | OxfordIIITPet**](https://gas.graviti.com/dataset/graviti/OxfordIIITPet)
+- [**7 animal categories detection and classification**](https://gas.graviti.com/dataset/hellodataset/AnimalPose7)
+- [**Functional and defective solar cells | Elpv**](https://gas.graviti.com/dataset/graviti/Elpv)
+- [**COVID-CT Dataset**](https://gas.graviti.com/dataset/graviti/COVID_CT)
+- [**102 Category Flower**](https://gas.graviti.com/dataset/hellodataset/Flower102-1)
+- [**17 Category Flower**](https://gas.graviti.com/dataset/hellodataset/Flower17)
+- [**Newsgroup**](https://gas.graviti.com/dataset/graviti/Newsgroups20)
+- [**Chinese Text Classification | THUCNews**](https://gas.graviti.com/dataset/graviti/THUCNews)
+
+## Keypoints Detection
+
+- [**Face Keypoints | BioIDFace**](https://gas.graviti.com/dataset/hellodataset/BioIDFace)
+- [**Facial Keypoint Detection**](https://gas.graviti.com/dataset/hellodataset/FacialKeypointDetection)
+- [**Crowded Scenes Pose Estimation | CrowdPose**](https://gas.graviti.com/dataset/hellodataset/CrowdPose)
+- [**Wider Facial Landmarks in-the-wild | WFLW**](https://gas.graviti.com/dataset/hellodataset/WFLW)
+
+## Segmentation
+
+- [**Semantic Understanding of Human | LIP**](https://gas.graviti.com/dataset/hellodataset/LIP)
+- [**Street View Segmentation in Autonomous Driving | BDD100K_10K**](https://gas.graviti.com/dataset/hellodataset/BDD100K_10K)
+- [**Human part segmentation | Crowd Instance-level Human Parsing**](https://gas.graviti.com/dataset/hellodataset/CIHP)
+
+## Pose Estimation
+
+- [**Sports Pose Estimation**](https://gas.graviti.com/dataset/graviti/LeedsSportsPose)
+- [**Pose Estimation | FLIC**](https://gas.graviti.com/dataset/graviti/FLIC)
+
 ## ASR
 
 - [**Chinese Speech Corpus | THCHS-30**](https://gas.graviti.com/dataset/hellodataset/THCHS-30)
 
+## OCR
 
+- [**Recognizing digits and numbers in natural scene images | SVHN**](https://gas.graviti.com/dataset/graviti/SVHN)
+
+---
 ## Q&A
 
 **Can I use these datasets for my project?**</br>
