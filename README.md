@@ -1,5 +1,4 @@
 # Datasets
-Discover and share awesome datasets and work together to push the boundaries of AI further.
 
 [![Official website](https://img.shields.io/badge/website-awesome-green)](https://www.graviti.com/)
 [![Public datasets](https://img.shields.io/badge/Datasets-1%2C233-green)](https://gas.graviti.com/open-datasets)
@@ -121,6 +120,8 @@ The [full list](https://gas.graviti.com/open-datasets) is available on Graviti C
 - [**Recognizing digits and numbers in natural scene images | SVHN**](https://gas.graviti.com/dataset/graviti/SVHN)
 
 ---
+
+Discover and share awesome datasets and work together to push the boundaries of AI further.
 ## Q&A
 
 **Can I use these datasets for my project?**</br>
