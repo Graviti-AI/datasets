@@ -1,6 +1,6 @@
 # Datasets
 
-[![Official website](https://img.shields.io/badge/website-awesome-green)](https://www.graviti.com/)
+[![Official website](https://img.shields.io/badge/website-awesome-blue)](https://www.graviti.com/)
 [![Public datasets](https://img.shields.io/badge/Datasets-1%2C233-green)](https://gas.graviti.com/open-datasets)
 [![Downloads](https://pepy.tech/badge/tensorbay/month)](https://pepy.tech/project/tensorbay)
 [![Slack](https://img.shields.io/static/v1?label=slack&message=graviti&logo=slack&color=blueviolet)](https://join.slack.com/t/graviticommunity/shared_invite/zt-qivjowva-8RxtilBsHIf218sOsLTHOQ)
