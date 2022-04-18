@@ -36,7 +36,7 @@ gas = GAS("<YOUR_ACCESSKEY>")
 
 > *You need to fork an open dataset from the community to your Graviti workspace before processing the data.*
 
-- Search datasets from the [open dataset](https://gas.graviti.com/open-datasets) catalog [[Doc..](https://docs.graviti.com/guide/opendataset/get)]
+- Search datasets from the [open dataset](https://gas.graviti.com/open-datasets) catalog [📖](https://docs.graviti.com/guide/opendataset/get)
 - Preview the data and annotations</br>
 Grasp the data details with the Pharos visualization tool in advance to help you quickly understand a dataset and its semantic information.
 <img width="800" alt="annotations" src="https://user-images.githubusercontent.com/92721051/163776918-d9555f16-9e0a-48c9-ac93-e7b6ec4f5ada.png">
@@ -55,10 +55,10 @@ When the sheer volume of data gets out of hand, the advanced filtering options h
 For example, you can filter out the data with traffic cones from an autonomous driving dataset. 
 <img width="800" alt="nuscenes" src="https://user-images.githubusercontent.com/92721051/163776900-8c14c561-0b18-47b3-a5bd-f8381fad6112.png">
 
-### Merge[[Doc..](https://tensorbay-python-sdk.graviti.com/en/stable/quick_start/examples/move_and_copy.html)] 
+### Merge [📖](https://tensorbay-python-sdk.graviti.com/en/stable/quick_start/examples/move_and_copy.html) 
 Create a dataset by merging different datasets through SDK.
 
-### Move and Copy[[Doc..](https://tensorbay-python-sdk.graviti.com/en/stable/quick_start/examples/move_and_copy.html)]
+### Move and Copy [📖](https://tensorbay-python-sdk.graviti.com/en/stable/quick_start/examples/move_and_copy.html)
 Copy is supported within a dataset or between datasets. Moving is only supported within one dataset.
 
 ## 5. Integrate with machine learning frameworks
@@ -207,4 +207,4 @@ Load a model from Github to start an evaluation.
 
 ---
 ### Leave a comment in the [Discussion](https://github.com/Graviti-AI/datasets/discussions) if you have any questions.
-### See you in the Community! 🤗
+### 🏃 See you in the Community! 
