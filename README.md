@@ -14,6 +14,7 @@ Please DO NOT modify this file directly. You could direct to the dataset page to
 - Datasets carries a diverse range of tasks, annotation types, and sizes.
 - Search by task types or keywords if you need a specific dataset. You could fork a dataset on dataset page and read data through [SDK](https://github.com/Graviti-AI/tensorbay-python-sdk).
 
+📖 [**Quick start on how to use open datasets**](https://github.com/Graviti-AI/datasets/blob/main/QuickStart.md)
 💡 [**Documentation**](https://tensorbay-python-sdk.graviti.com/en/latest/)
 🔍 [**Find a dataset on Graviti**](https://gas.graviti.com/open-datasets)
 ❓ [**Q&A**](#qa)
