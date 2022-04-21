@@ -3,18 +3,18 @@
 [![Official website](https://img.shields.io/badge/website-awesome-blue)](https://www.graviti.com/)
 [![Public datasets](https://img.shields.io/badge/Datasets-1%2C233-green)](https://gas.graviti.com/open-datasets)
 [![Downloads](https://pepy.tech/badge/tensorbay/month)](https://pepy.tech/project/tensorbay)
-[![Slack](https://img.shields.io/static/v1?label=slack&message=graviti&logo=slack&color=blueviolet)](https://join.slack.com/t/graviticommunity/shared_invite/zt-qivjowva-8RxtilBsHIf218sOsLTHOQ)
+![Discord](https://img.shields.io/discord/877084293883625473?color=purple&label=Community%20Discord)
 
 ---
 
 **IMPORTANT**: This repo is a list of open datasets hosted on Graviti. 
-Please DO NOT modify this file directly. You could direct to the dataset page to contribute. Join our [slack community](https://join.slack.com/t/graviticommunity/shared_invite/zt-qivjowva-8RxtilBsHIf218sOsLTHOQ) for more communication.
+Please DO NOT modify this file directly. You could direct to the dataset page to contribute. Join our [community discord](https://discord.gg/uJ3uJSsJ2X) for more communication.
 
 - This repository is a lightweight library of [![1,233](https://img.shields.io/badge/Datasets-1%2C233-green)](https://gas.graviti.com/open-datasets)  datasets in high quality. All are open source.
 - Datasets carries a diverse range of tasks, annotation types, and sizes.
 - Search by task types or keywords if you need a specific dataset. You could fork a dataset on dataset page and read data through [SDK](https://github.com/Graviti-AI/tensorbay-python-sdk).
 
-📖 [**Quick start on how to use open datasets**](https://github.com/Graviti-AI/datasets/blob/main/QuickStart.md)
+📖 [**Step-by-step Tutorial on how to use open datasets**](https://github.com/Graviti-AI/datasets/blob/main/QuickStart.md)
 💡 [**Documentation**](https://tensorbay-python-sdk.graviti.com/en/latest/)
 🔍 [**Find a dataset on Graviti**](https://gas.graviti.com/open-datasets)
 ❓ [**Q&A**](#qa)
