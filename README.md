@@ -3,7 +3,7 @@
 [![Official website](https://img.shields.io/badge/website-awesome-blue)](https://www.graviti.com/)
 [![Public datasets](https://img.shields.io/badge/Datasets-1%2C233-green)](https://gas.graviti.com/open-datasets)
 [![Downloads](https://pepy.tech/badge/tensorbay/month)](https://pepy.tech/project/tensorbay)
-![Discord](https://img.shields.io/discord/877084293883625473?color=purple&label=Community%20Discord)
+[![Discord](https://img.shields.io/discord/877084293883625473?color=purple&label=Community%20Discord)](https://discord.gg/uJ3uJSsJ2X)
 
 ---
 ## Push the bounddaries of AI
