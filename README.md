@@ -59,14 +59,10 @@ gas = GAS("<YOUR_ACCESSKEY>")
 
 - Search datasets from the [open dataset](https://gas.graviti.com/open-datasets) catalog [📖](https://docs.graviti.com/guide/opendataset/get)
 - Preview the data and annotations</br>
-Grasp the data details with the Pharos visualization tool in advance to help you quickly understand a dataset and its semantic information.
-<img width="800" alt="annotations" src="https://user-images.githubusercontent.com/92721051/163776918-d9555f16-9e0a-48c9-ac93-e7b6ec4f5ada.png">
-
+View data visualization in advance to help you quickly understand a dataset and its semantic information.
 - On the dataset page,  choose to fork the dataset in the 'Explore Dataset' drop-down menu.
-<img width="800" alt="explore" src="https://user-images.githubusercontent.com/92721051/163776911-3c1b942d-0ab7-49c8-8400-6b91349bcd85.png">
-
-- Then you will find the dataset on the 'Your Datasets' list
-<img width="800" alt="yourdatasets" src="https://user-images.githubusercontent.com/92721051/163776902-22a1d05b-5b92-4984-86af-4b19b08b0367.png">
+- Find the dataset on the 'Your Datasets' list
+<img width="800" alt="fork a dataset" src="https://user-images.githubusercontent.com/92721051/164587688-e5771a57-cb87-4f9a-97a8-db21b0da9c82.gif">
 
 4. Prepare data
 
