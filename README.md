@@ -21,7 +21,7 @@
 - 🧑‍🤝‍🧑 [**Join the community**](#join-the-community)
 </br>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/92721051/161734655-7b76dd90-9dc8-4d40-8d14-a15b8ea4a72f.png" width="509" height="297" border="10"/>
+<img src="https://user-images.githubusercontent.com/92721051/161734655-7b76dd90-9dc8-4d40-8d14-a15b8ea4a72f.png" width="800" height="467" border="10"/>
 </p>
 
 ## Quick start
@@ -62,7 +62,9 @@ gas = GAS("<YOUR_ACCESSKEY>")
 View data visualization in advance to help you quickly understand a dataset and its semantic information.
 - On the dataset page,  choose to fork the dataset in the 'Explore Dataset' drop-down menu.
 - Find the dataset on the 'Your Datasets' list
+<p align="center">
 <img width="800" alt="fork a dataset" src="https://user-images.githubusercontent.com/92721051/164587688-e5771a57-cb87-4f9a-97a8-db21b0da9c82.gif">
+</p>
 
 4. Prepare data
 
