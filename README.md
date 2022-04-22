@@ -1,4 +1,4 @@
-# Datasets
+# Graviti AI Community
 
 [![Official website](https://img.shields.io/badge/website-awesome-blue)](https://www.graviti.com/)
 [![Public datasets](https://img.shields.io/badge/Datasets-1%2C233-green)](https://gas.graviti.com/open-datasets)
@@ -6,130 +6,154 @@
 ![Discord](https://img.shields.io/discord/877084293883625473?color=purple&label=Community%20Discord)
 
 ---
+## Push the bounddaries of AI
+⭐ Welcome to Graviti AI community! We build the community to provide a decentralized way to advocate community-generated datasets, models and applications towards better science understanding.
 
-**IMPORTANT**: This repo is a list of open datasets hosted on Graviti. 
-Please DO NOT modify this file directly. You could direct to the dataset page to contribute. Join our [community discord](https://discord.gg/uJ3uJSsJ2X) for more communication.
+## Table of Contents
 
-- This repository is a lightweight library of [![1,233](https://img.shields.io/badge/Datasets-1%2C233-green)](https://gas.graviti.com/open-datasets)  datasets in high quality. All are open source.
-- Datasets carries a diverse range of tasks, annotation types, and sizes.
-- Search by task types or keywords if you need a specific dataset. You could fork a dataset on dataset page and read data through [SDK](https://github.com/Graviti-AI/tensorbay-python-sdk).
-
-📖 [**Step-by-step Tutorial on how to use open datasets**](https://github.com/Graviti-AI/datasets/blob/main/QuickStart.md)
-💡 [**Documentation**](https://tensorbay-python-sdk.graviti.com/en/latest/)
-🔍 [**Find a dataset on Graviti**](https://gas.graviti.com/open-datasets)
-❓ [**Q&A**](#qa)
+- ▶️ [**Quick start on how to use open datasets**](#quick-start)
+- 📖 [**Step-by-step Tutorial**](https://github.com/Graviti-AI/datasets/blob/main/QuickStart.md)
+- 📑 [**Open datasets catalog**](#open-datasets-catalog)
+- ✍️ [**Become a contributor**](#become-a-contributor)
+- 🔍 [**Find a dataset on Graviti**](https://gas.graviti.com/open-datasets)
+- ❓ [**Q&A**](#qa)
+- 💡 [**Documentation**](https://tensorbay-python-sdk.graviti.com/en/latest/)
+- 🧑‍🤝‍🧑 [**Join the community**](#join-the-community)
 </br>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/92721051/161734655-7b76dd90-9dc8-4d40-8d14-a15b8ea4a72f.png" width="509" height="297" border="10"/>
 </p>
 
-📖 These datasets are great for machine learning learners, researchers and engineers to train models for image classification, object detection, visual relationship detection, instance segmentation, and more. </br>
-⭐ We believe with the everyone effort from community, the open source will push the boundaries of AI towards better science understanding.
+## Quick start
+
+⭐ You have a complex problem or project involving a large amount of data and lots of variables. You know that finding a public dataset to train your machine learning model would be the best approach. How do you deal with data that’s in a variety of formats? How do you choose the dataset for your model?</br>
+We'll walk you through step by step from the basics to advanced techniques and help you get started!
+
+1. Sign up for an account
+
+Go to [graviti.com](https://account.graviti.com/sign-up) to sign up. </br>
+Get an AccessKey on [Graviti Developer Tools](https://gas.graviti.com/tensorbay/developer).</br>
+
+> *An AccessKey is needed to authenticate identity when using TensorBay via SDK or CLI.* </br>
+> *You have full permissions for the account. Please keep the key properly.*
+
+2. Install Tensorbay Python SDK
+
+- To install TensorBay SDK and CLI by **pip**, run the following command:
+```
+pip3 install tensorbay
+```
+- To verify the SDK and CLI version, run the following command:
+```
+gas --version
+```
+- Authorize a Client Instance
+```
+from tensorbay import GAS
+gas = GAS("<YOUR_ACCESSKEY>")
+```
+
+3. Select an open dataset
+
+> *You need to fork an open dataset from the community to your Graviti workspace before processing the data.*
+
+- Search datasets from the [open dataset](https://gas.graviti.com/open-datasets) catalog [📖](https://docs.graviti.com/guide/opendataset/get)
+- Preview the data and annotations</br>
+Grasp the data details with the Pharos visualization tool in advance to help you quickly understand a dataset and its semantic information.
+<img width="800" alt="annotations" src="https://user-images.githubusercontent.com/92721051/163776918-d9555f16-9e0a-48c9-ac93-e7b6ec4f5ada.png">
+
+- On the dataset page,  choose to fork the dataset in the 'Explore Dataset' drop-down menu.
+<img width="800" alt="explore" src="https://user-images.githubusercontent.com/92721051/163776911-3c1b942d-0ab7-49c8-8400-6b91349bcd85.png">
+
+- Then you will find the dataset on the 'Your Datasets' list
+<img width="800" alt="yourdatasets" src="https://user-images.githubusercontent.com/92721051/163776902-22a1d05b-5b92-4984-86af-4b19b08b0367.png">
+
+4. Prepare data
+
+You could prepare your data for model training quickly by using the following functions. 
+
+- **Filter** [📖](https://docs.graviti.com/guide/tensorbay/data/filter) 
+- **Merge**[📖](https://tensorbay-python-sdk.graviti.com/en/stable/quick_start/examples/move_and_copy.html) 
+- **Move and Copy** [📖](https://tensorbay-python-sdk.graviti.com/en/stable/quick_start/examples/move_and_copy.html)
+
+5. Integrate with machine learning frameworks
+
+Integrating with PyTorch, TensorFlow and more.
+
+- **PyTorch** [📖](https://tensorbay-python-sdk.graviti.com/en/latest/integrations/pytorch.htm)
+
+The typical method to integrate a dataset with PyTorch is to build a ‘Segment’ class derived from ‘torch.utils.data.Dataset’.
+
+- **TensorFlow** [📖](https://tensorbay-python-sdk.graviti.com/en/latest/integrations/tensorflow.html)
+
+The typical method to integrate a dataset with TensorFlow is to build a callable ‘Segment’ class.
+
+- We recommend enabling [cache](https://tensorbay-python-sdk.graviti.com/en/stable/advanced_features/cache.html#enable-cache) for a better training experience. Sample code is as below (It requires enough local storage to load dataset)
+
+```
+from paddle.io import Dataloader,Dataset
+from PIL import Image
+from tensorbay.dataset import  Dataset as TensorBay Dataset
+
+class DogsVSCatsSegment(Dataset):
+##class for wrapping a DosVsCats segment
+
+    def __init__(self, gas, segment_name, transfors):
+        super().__inint__()
+        self.dataset = TensorBayDataset('DogsVsCats', gas)
+        self.dataset.enable_cache() ## launch cache
+        self.segment = self.dataset{segment_name}
+        self.category_to_index = self.dataset.catalog.clasification.get_category_to_index()
+        self.transform = transform
+        print(self.datasdt.cache_enabled) ## confirm if cached has been launched
+```   
+- Check [**the full tutorial**]((https://github.com/Graviti-AI/datasets/blob/main/QuickStart.md)) for advanced tools and techniques.
 
 ---
 
-## Table of Contents (Most popular datasets by tasks)
-- [Object Detection](#object-detection)
-- [Classification](#classification)
-- [Keypoints Detection](#keypoints-detection)
-- [Segmentation](#segmentation)
-- [Pose Estimation](#pose-estimation)
-- [ASR](#asr)
-- [OCR](#ocr)
+## Open datasets catolog 
 
-The [full list](https://gas.graviti.com/open-datasets) is available on Graviti Community.
+These datasets are great for machine learning learners, researchers and engineers to train models for image classification, object detection, visual relationship detection, instance segmentation, and more. </br>
+The [full list](https://gas.graviti.com/open-datasets) is available on Graviti Community. </br>
+Please DO NOT modify this file directly. You could direct to the dataset page to contribute. 
+
+[Datasets](https://github.com/Graviti-AI/datasets/tree/main/datasets) repo is a lightweight library of [![1,233](https://img.shields.io/badge/Datasets-1%2C233-green)](https://gas.graviti.com/open-datasets)  datasets in high quality. All are open source carrying a diverse range of tasks, annotation types, and sizes.</br>
+Search by task types or keywords if you need a specific dataset. You could fork a dataset on dataset page and read data through [SDK](https://github.com/Graviti-AI/tensorbay-python-sdk). </br>
+Popular tasks 
+- Object Detection
+- Classification
+- Keypoints Detection
+- Segmentation
+- Pose Estimation
+- ASR
+- OCR
+
 ---
+## Become a contributor
 
-## Object Detection
+Contributions are welcomed and greatly appreciated. You can become a community contributor in many different ways, we value all forms of contribution including:
 
-- [**Driving video dataset | BDD100K**](https://gas.graviti.com/dataset/hellodataset/BDD100K)
-- [**Airplane Detection**](https://gas.graviti.com/dataset/hellodataset/airplane_detection)
-- [**Waste in the Wild | TACO**](https://gas.graviti.com/dataset/hellodataset/TACO)
-- [**Playing cards Classification and Detection**](https://gas.graviti.com/dataset/hellodataset/playing-card)
-- [**Swimming-pool-and-car-detection**](https://gas.graviti.com/dataset/hellodataset/swimming-pool-and-car-detection)
-- [**Pothole Detection**](https://gas.graviti.com/dataset/hellodataset/annotated-potholes-dataset)
-- [**Dog Breed Identification | StanfordExtra**](https://gas.graviti.com/dataset/hellodataset/StanfordExtra)
-- [**Car Brand Identity | CompCars**](https://gas.graviti.com/dataset/graviti/CompCars)
-- [**Multi-modal UAV dataset for object detection | AU_AIR**](https://gas.graviti.com/dataset/hellodataset/AU_AIR)
-- [**Non-stationary fire detection | FurgFire**](https://gas.graviti.com/dataset/hellodataset/FurgFire)
-- [**Safety Helmets Detection**](https://gas.graviti.com/dataset/graviti/HardHatWorkers)
-- [**5 Categories Animal-Pose**](https://gas.graviti.com/dataset/hellodataset/AnimalPose5)
-- [**Vision-based Traffic Light Detection | BSTLD**](https://gas.graviti.com/dataset/graviti/BSTLD)
-- [**Vehicle Classification and Detection | NEXET**](https://gas.graviti.com/dataset/hellodataset/NEXET)
-- [**Autonomous Driving Object Detection | KITTIObject**](https://gas.graviti.com/dataset/hellodataset/KITTIObject)
-- [**Real-time Object Detection in Automous Driving**](https://gas.graviti.com/dataset/graviti/UrbanObjectDetection)
-- [**Object Detection in Automous Driving**](https://gas.graviti.com/dataset/hellodataset/BDD100K_MOT2020)
-- [**Face detection in differenct scene | WIDER_FACE**](https://gas.graviti.com/dataset/graviti/WIDER_FACE)
-- [**Head Pose Image**](https://gas.graviti.com/dataset/graviti/HeadPoseImage)
-- [**Unconstrained crowd counting dataset**](https://gas.graviti.com/dataset/graviti/JHU_CROWD)
-- [**Common Object Detection | COCO2017**](https://gas.graviti.com/dataset/hellodataset/COCO2017)
-- [**Wingrape Classification and Detection**](https://gas.graviti.com/dataset/hellodataset/Winegrape)
-- [**Wheat head detection in outdoor field**](https://gas.graviti.com/dataset/hellodataset/Global-Wheat-Detection)
-- [**Multi-object Tracking and Segmentation in Driving | BDD100K MOTS2020**](https://gas.graviti.com/dataset/hellodataset/BDD100K_MOTS2020)
-- [**Vehicle types detection under uav | UAVDT**](https://gas.graviti.com/dataset/graviti/UAVDT)
-- [**Pedestrian Detection and Segmentation**](https://gas.graviti.com/dataset/hellodataset/PennFudanDatabaseForPedestrianDetectionAndSegmentation)
-
-## Classfication
-
-- [**Spoken Digits | FSDD**](https://gas.graviti.com/dataset/graviti/FSDD)
-- [**Car Logo Classification**](https://gas.graviti.com/dataset/hellodataset/Car-Logos-Dataset)
-- [**Pokemon Breed Identification**](https://gas.graviti.com/dataset/graviti/PokemonGenerationOne)
-- [**Handwritten Digits Classification | MNIST**](https://gas.graviti.com/dataset/hellodataset/MNIST)
-- [**Object Classification| CIFAR10**](https://gas.graviti.com/dataset/graviti/CIFAR10)
-- [**Logo Classification | logos-627**](https://gas.graviti.com/dataset/hellodataset/logos-627)
-- [**Classifcation: Dogs vs Cats**](https://gas.graviti.com/dataset/graviti/DogsVsCats)
-- [**Fashion Project Classification**](https://gas.graviti.com/dataset/graviti/FashionMNIST)
-- [**Kenyan Food Type**](https://gas.graviti.com/dataset/graviti/KenyanFoodType)
-- [**Texture Classification**](https://gas.graviti.com/dataset/graviti/KylbergTexture)
-- [**Car Brand Classification**](https://gas.graviti.com/dataset/graviti/CarConnectionPicture)
-- [**Quick Draw Content Classification**](https://gas.graviti.com/dataset/graviti/QuickDraw)
-- [**Affective Image Classification**](https://gas.graviti.com/dataset/graviti/ImageEmotionArtPhoto)
-- [**Animal Species Detection | AnimalsWithAttributes2**](https://gas.graviti.com/dataset/graviti/AnimalsWithAttributes2)
-- [**37 Category Cat & Dog Dataset | OxfordIIITPet**](https://gas.graviti.com/dataset/graviti/OxfordIIITPet)
-- [**7 animal categories detection and classification**](https://gas.graviti.com/dataset/hellodataset/AnimalPose7)
-- [**Functional and defective solar cells | Elpv**](https://gas.graviti.com/dataset/graviti/Elpv)
-- [**COVID-CT Dataset**](https://gas.graviti.com/dataset/graviti/COVID_CT)
-- [**102 Category Flower**](https://gas.graviti.com/dataset/hellodataset/Flower102-1)
-- [**17 Category Flower**](https://gas.graviti.com/dataset/hellodataset/Flower17)
-- [**Newsgroup**](https://gas.graviti.com/dataset/graviti/Newsgroups20)
-- [**Chinese Text Classification | THUCNews**](https://gas.graviti.com/dataset/graviti/THUCNews)
-
-## Keypoints Detection
-
-- [**Face Keypoints | BioIDFace**](https://gas.graviti.com/dataset/hellodataset/BioIDFace)
-- [**Facial Keypoint Detection**](https://gas.graviti.com/dataset/hellodataset/FacialKeypointDetection)
-- [**Crowded Scenes Pose Estimation | CrowdPose**](https://gas.graviti.com/dataset/hellodataset/CrowdPose)
-- [**Wider Facial Landmarks in-the-wild | WFLW**](https://gas.graviti.com/dataset/hellodataset/WFLW)
-
-## Segmentation
-
-- [**Semantic Understanding of Human | LIP**](https://gas.graviti.com/dataset/hellodataset/LIP)
-- [**Street View Segmentation in Autonomous Driving | BDD100K_10K**](https://gas.graviti.com/dataset/hellodataset/BDD100K_10K)
-- [**Human part segmentation | Crowd Instance-level Human Parsing**](https://gas.graviti.com/dataset/hellodataset/CIHP)
-
-## Pose Estimation
-
-- [**Sports Pose Estimation**](https://gas.graviti.com/dataset/graviti/LeedsSportsPose)
-- [**Pose Estimation | FLIC**](https://gas.graviti.com/dataset/graviti/FLIC)
-
-## ASR
-
-- [**Chinese Speech Corpus | THCHS-30**](https://gas.graviti.com/dataset/hellodataset/THCHS-30)
-
-## OCR
-
-- [**Recognizing digits and numbers in natural scene images | SVHN**](https://gas.graviti.com/dataset/graviti/SVHN)
+- Improve code
+- Improve docs
+- Report bugs
+- Write blogs
+- Give talks
+- Provide ideas
+- Answer questions
 
 ---
 
-Discover and share awesome datasets and work together to push the boundaries of AI further.
 ## Q&A
 
 **Can I use these datasets for my project?**</br>
-Sure! You're totally free to do so. You may check each license further on the ☝️ dataset link. Refer to [TensorBay Python SDK](https://github.com/Graviti-AI/tensorbay-python-sdk#tensorbay-python-sdk) to read datasets via SDK.
+Sure! You're totally free to do so. You may check each license further on the dataset link. Refer to [TensorBay Python SDK](https://github.com/Graviti-AI/tensorbay-python-sdk#tensorbay-python-sdk) to read datasets via SDK.
 
 **Can I add a dataset here?**</br>
 Send us a pull request and we'll discuss.
 
-**There seems to be a problem here. How to contribute?**</br>
-Contribution procedures will be available soon..
+---
+
+## Join the community
+
+To connect with all practitioners like you, join our [community discord](https://discord.gg/uJ3uJSsJ2X) for more communication.
+
