@@ -12,7 +12,7 @@
 ## Table of Contents
 
 - ▶️ [**Quick start on how to use open datasets**](#quick-start)
-- 📖 [**Step-by-step Tutorial**](https://github.com/Graviti-AI/datasets/blob/main/QuickStart.md)
+- 📖 [**Step-by-step Tutorial**](https://github.com/Graviti-AI/datasets/blob/main/How_to_use_Tutorial.md)
 - 📑 [**Open datasets catalog**](#open-datasets-catalog)
 - ✍️ [**Become a contributor**](#become-a-contributor)
 - 🔍 [**Find a dataset on Graviti**](https://gas.graviti.com/open-datasets)
@@ -107,7 +107,7 @@ class DogsVSCatsSegment(Dataset):
         self.transform = transform
         print(self.datasdt.cache_enabled) ## confirm if cached has been launched
 ```   
-- Check [**the full tutorial**]((https://github.com/Graviti-AI/datasets/blob/main/QuickStart.md)) for advanced tools and techniques.
+- Check [**the full tutorial**](https://github.com/Graviti-AI/datasets/blob/main/How_to_use_Tutorial.md) for advanced tools and techniques.
 
 ---
 
