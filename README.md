@@ -1,5 +1,6 @@
 # Graviti AI Community
 
+[![Twitter Follow](https://img.shields.io/twitter/follow/graviti_ai?style=social)](https://twitter.com/intent/follow?screen_name=graviti_ai)
 [![Official website](https://img.shields.io/badge/website-awesome-blue)](https://www.graviti.com/)
 [![Public datasets](https://img.shields.io/badge/Datasets-1%2C233-green)](https://gas.graviti.com/open-datasets)
 [![Downloads](https://pepy.tech/badge/tensorbay/month)](https://pepy.tech/project/tensorbay)
