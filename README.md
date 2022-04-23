@@ -1,3 +1,4 @@
+
 # Graviti AI Community
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/graviti_ai?style=social)](https://twitter.com/intent/follow?screen_name=graviti_ai)
@@ -24,6 +25,9 @@
 <p align="center">
 <img src="https://user-images.githubusercontent.com/92721051/161734655-7b76dd90-9dc8-4d40-8d14-a15b8ea4a72f.png" width="800" height="467" border="10"/>
 </p>
+
+## Thanks for supporting the community!
+[![Stargazers repo roster for @Graviti-AI/datasets](https://reporoster.com/stars/dark/Graviti-AI/datasets)](https://github.com/Graviti-AI/datasets/stargazers)
 
 ## Quick start
 
