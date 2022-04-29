@@ -57,6 +57,9 @@ Grasp the data details with the Pharos visualization tool in advance to help you
 ## 4. Prepare data
 
 You could prepare your data for model training quickly by using the following functions. 
+
+> *The following functions are only available among personal datasets, not open datasets.*
+
 ### Filter [📖](https://docs.graviti.com/guide/tensorbay/data/filter) 
 When the sheer volume of data gets out of hand, the advanced filtering options help you drill down to see the data you need. Click 'Manage Data' on the page of a forked dataset. Apply filtering options on the left bar and create a subset with the results.</br>
 For example, you can filter out the data with traffic cones from an autonomous driving dataset. 
