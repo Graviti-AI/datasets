@@ -8,7 +8,7 @@
 [![Discord](https://img.shields.io/discord/877084293883625473?color=purple&label=Community%20Discord)](https://discord.gg/uJ3uJSsJ2X)
 
 ---
-## Push the bounddaries of AI
+## Push the boundaries of AI
 ⭐ Welcome to Graviti AI community! We build the community to provide a decentralized way to advocate community-generated datasets, models and applications towards better science understanding.
 
 ## Table of Contents
