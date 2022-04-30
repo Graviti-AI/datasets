@@ -9,7 +9,8 @@
 
 ---
 ## Push the boundaries of AI
-⭐ Welcome to Graviti AI community! We build the community to provide a decentralized way to advocate community-generated datasets, models and applications towards better science understanding.
+⭐ Welcome to Graviti AI community! We are devoted to making datasets more accessible and interoperable to AI developers, fostering a supportive community of building machine learning applications.
+
 
 ## Table of Contents
 
