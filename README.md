@@ -80,9 +80,7 @@ You could prepare your data for model training quickly by using the following fu
 - **Merge**[📖](https://tensorbay-python-sdk.graviti.com/en/stable/quick_start/examples/move_and_copy.html) 
 - **Move and Copy** [📖](https://tensorbay-python-sdk.graviti.com/en/stable/quick_start/examples/move_and_copy.html)
 
-5. Integrate with machine learning frameworks
-
-Integrating with PyTorch, TensorFlow and more.
+5. Integrate with machine learning frameworks (PyTorch, TensorFlow and more)
 
 - **PyTorch** [📖](https://tensorbay-python-sdk.graviti.com/en/latest/integrations/pytorch.htm)
 
