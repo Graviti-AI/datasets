@@ -24,7 +24,7 @@
 - 🧑‍🤝‍🧑 [**Join the community**](#join-the-community)
 </br>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/92721051/161734655-7b76dd90-9dc8-4d40-8d14-a15b8ea4a72f.png" width="800" height="467" border="10"/>
+<img src="https://user-images.githubusercontent.com/92721051/161734655-7b76dd90-9dc8-4d40-8d14-a15b8ea4a72f.png" width="600" height="350" border="10"/>
 </p>
 
 ## Thanks for supporting the community!
