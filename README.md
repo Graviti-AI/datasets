@@ -147,7 +147,7 @@ Contributions are welcomed and greatly appreciated. You can become a community c
 ## Q&A
 
 **Can I use these datasets for my project?**</br>
-Sure! You're totally free to do so. You may check each license further on the dataset link. Refer to [TensorBay Python SDK](https://github.com/Graviti-AI/tensorbay-python-sdk#tensorbay-python-sdk) to read datasets via SDK.
+Sure! You're totally free to do so. You may check detailed license info further on each [dataset](https://gas.graviti.com/open-datasets) page. 
 
 **Can I add a dataset here?**</br>
 Send us a pull request and we'll discuss.
