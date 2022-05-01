@@ -15,16 +15,16 @@
 ## Table of Contents
 
 - ▶️ [**Quick start on how to use open datasets**](#quick-start)
-- 📖 [**Step-by-step Tutorial**](https://github.com/Graviti-AI/datasets/blob/main/How_to_use_Tutorial.md)
 - 📑 [**Open datasets catalog**](#open-datasets-catalog)
+- 📖 [**Step-by-step Tutorial**](https://github.com/Graviti-AI/datasets/blob/main/How_to_use_Tutorial.md)
 - ✍️ [**Become a contributor**](#become-a-contributor)
-- 🔍 [**Find a dataset on Graviti**](https://gas.graviti.com/open-datasets)
+- 🔍 [**Find more datasets on Graviti**](https://gas.graviti.com/open-datasets)
 - ❓ [**Q&A**](#qa)
 - 💡 [**Documentation**](https://tensorbay-python-sdk.graviti.com/en/latest/)
 - 🧑‍🤝‍🧑 [**Join the community**](#join-the-community)
 </br>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/92721051/161734655-7b76dd90-9dc8-4d40-8d14-a15b8ea4a72f.png" width="600" height="350" border="10"/>
+<img src="https://user-images.githubusercontent.com/92721051/161734655-7b76dd90-9dc8-4d40-8d14-a15b8ea4a72f.png" width="600" height="350" border="5"/>
 </p>
 
 ## Thanks for supporting the community!
@@ -110,7 +110,6 @@ class DogsVSCatsSegment(Dataset):
         print(self.datasdt.cache_enabled) ## confirm if cached has been launched
 ```   
 - Check [**the full tutorial**](https://github.com/Graviti-AI/datasets/blob/main/How_to_use_Tutorial.md) for advanced tools and techniques.
-
 ---
 
 ## Open datasets catolog 
@@ -157,5 +156,5 @@ Send us a pull request and we'll discuss.
 
 ## Join the community
 
-To connect with all practitioners like you, join our [community discord](https://discord.gg/uJ3uJSsJ2X) for more communication.
+To connect with all practitioners like you, join our [community discord](https://discord.gg/S67QqNDy26) for more communication.
 
