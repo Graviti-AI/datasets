@@ -100,7 +100,7 @@ You could customize open datasets into the right dataset for your models by usin
 
 5. Integrate with machine learning frameworks (PyTorch, TensorFlow and more)
 
-- **PyTorch** [📖](https://tensorbay-python-sdk.graviti.com/en/latest/integrations/pytorch.htm)
+- **PyTorch** [📖](https://tensorbay-python-sdk.graviti.com/en/latest/integrations/pytorch.html)
 
 The typical method to integrate a dataset with PyTorch is to build a ‘Segment’ class derived from ‘torch.utils.data.Dataset’.
 
