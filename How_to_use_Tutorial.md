@@ -1,4 +1,4 @@
-# Quick start on using open datasets
+# Get started on using open datasets
 ![Language](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorbay-python-sdk.graviti.com/en/stable/integrations/pytorch.html)
 [![Pytorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)](https://tensorbay-python-sdk.graviti.com/en/stable/integrations/tensorflow.html)
