@@ -14,8 +14,8 @@
 
 ## Table of Contents
 
-- ▶️ [**Quick start on how to use open datasets**](#quick-start)
 - 📑 [**Open datasets catalog**](#open-datasets-catalog)
+- ▶️ [**Quick start on how to use open datasets**](#quick-start)
 - 📖 [**Step-by-step Tutorial**](https://github.com/Graviti-AI/datasets/blob/main/How_to_use_Tutorial.md)
 - ✍️ [**Become a contributor**](#become-a-contributor)
 - 🔍 [**Find more datasets on Graviti**](https://gas.graviti.com/open-datasets)
@@ -30,6 +30,24 @@
 ## Thanks for supporting the community!
 [![Stargazers repo roster for @Graviti-AI/datasets](https://reporoster.com/stars/dark/Graviti-AI/datasets)](https://github.com/Graviti-AI/datasets/stargazers)
 
+## Open datasets catalog 
+
+These datasets are great for machine learning learners, researchers and engineers to train models for image classification, object detection, visual relationship detection, instance segmentation, and more. </br>
+The [full list](https://gas.graviti.com/open-datasets) is available on Graviti Community. </br>
+Please DO NOT modify this file directly. You could direct to the dataset page to contribute. 
+
+[Datasets](https://github.com/Graviti-AI/datasets/tree/main/datasets) repo is a lightweight library of [![1,233](https://img.shields.io/badge/Datasets-1%2C233-green)](https://gas.graviti.com/open-datasets)  datasets in high quality. All are open source carrying a diverse range of tasks, annotation types, and sizes.</br>
+Search by task types or keywords if you need a specific dataset. You could fork a dataset on dataset page and read data through [SDK](https://github.com/Graviti-AI/tensorbay-python-sdk). </br>
+Popular tasks 
+- Object Detection
+- Classification
+- Keypoints Detection
+- Segmentation
+- Pose Estimation
+- ASR
+- OCR
+
+---
 ## Quick start
 
 ⭐ You have a complex problem or project involving a large amount of data and lots of variables. You know that finding a public dataset to train your machine learning model would be the best approach. How do you deal with data that’s in a variety of formats? How do you choose the dataset for your model?</br>
@@ -110,24 +128,6 @@ class DogsVSCatsSegment(Dataset):
         print(self.datasdt.cache_enabled) ## confirm if cached has been launched
 ```   
 - Check [**the full tutorial**](https://github.com/Graviti-AI/datasets/blob/main/How_to_use_Tutorial.md) for advanced tools and techniques.
----
-
-## Open datasets catolog 
-
-These datasets are great for machine learning learners, researchers and engineers to train models for image classification, object detection, visual relationship detection, instance segmentation, and more. </br>
-The [full list](https://gas.graviti.com/open-datasets) is available on Graviti Community. </br>
-Please DO NOT modify this file directly. You could direct to the dataset page to contribute. 
-
-[Datasets](https://github.com/Graviti-AI/datasets/tree/main/datasets) repo is a lightweight library of [![1,233](https://img.shields.io/badge/Datasets-1%2C233-green)](https://gas.graviti.com/open-datasets)  datasets in high quality. All are open source carrying a diverse range of tasks, annotation types, and sizes.</br>
-Search by task types or keywords if you need a specific dataset. You could fork a dataset on dataset page and read data through [SDK](https://github.com/Graviti-AI/tensorbay-python-sdk). </br>
-Popular tasks 
-- Object Detection
-- Classification
-- Keypoints Detection
-- Segmentation
-- Pose Estimation
-- ASR
-- OCR
 
 ---
 ## Become a contributor
